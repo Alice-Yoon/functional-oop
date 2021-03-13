@@ -24,6 +24,7 @@ function signupHandler(e) {
   }
 
   console.log(user);
+  console.log(`Hi, I am ${user.userName}`);
 }
 
 form.addEventListener('submit', signupHandler);
